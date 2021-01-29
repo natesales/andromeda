@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message NodeConnectionRequest {}
+
+message NodeConnectionResponse {
+  enum Status {
+    ACCEPTED = 0;
+    REJECTED = 1;
+  }
+}
